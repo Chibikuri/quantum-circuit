@@ -75,4 +75,4 @@ $$|\psi_6\rangle=\frac{\alpha}{2}(|000\rangle+|001\rangle+|101\rangle+|100\rangl
 \alpha(\frac{|0\rangle+|1\rangle}{\sqrt{2}})|0\rangle(\frac{|0\rangle+|1\rangle}{\sqrt{2}})+\beta(\frac{|0\rangle-|1\rangle}{\sqrt{2}})|1\rangle(\frac{|0\rangle+|1\rangle}{\sqrt{2}})\\=\alpha|+\rangle|0\rangle|+\rangle+\beta|-\rangle|1\rangle|+\rangle$$
 
 First and Third qubit are worked on hadamard.
-$$|\psi_7\rangle=\alpha|000\rangle+\beta|011\rangle
+$$|\psi_7\rangle=\alpha|000\rangle+\beta|110\rangle
