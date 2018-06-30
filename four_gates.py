@@ -1,4 +1,6 @@
 from qiskit import QuantumProgram
+#from qiskit.tools.visualization import plot_histogram
+#from qasm2image import qasm2png
 
 class Quantum_culc:
     qp = QuantumProgram()
@@ -17,6 +19,8 @@ class Quantum_culc:
         qc.measure(qr[2], cr[2])
         result_A = qp.execute("A_circuit")
         print(result_A.get_counts("A_circuit"))
+        #print(qc.qasm())
+        #print(qasm2png(qc.qasm()))
 
     @classmethod
     def B_circuit(self):
@@ -34,6 +38,7 @@ class Quantum_culc:
         qc.measure(qr[2], cr[2])
         result_B = qp.execute("B_circuit")
         print(result_B.get_counts("B_circuit"))
+
 
     @classmethod
     def C_circuit(self):
